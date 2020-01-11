@@ -1,0 +1,17 @@
+.idcard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.idcard-info {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.idcard-info img {
+  width: 20%;
+}
