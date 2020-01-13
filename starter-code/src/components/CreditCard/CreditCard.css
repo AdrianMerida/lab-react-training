@@ -6,9 +6,21 @@
   width: 30%;
   padding: 10px;
   border-radius: 10px;
+  border: 3px solid red;
 }
 
 .creditcard-container img {
   width: 10%;
   height: 15%;
+}
+
+.creditcard-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.creditcard-number {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
 }

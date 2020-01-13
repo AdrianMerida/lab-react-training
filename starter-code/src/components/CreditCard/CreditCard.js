@@ -19,10 +19,20 @@ const CreditCard = ({
   color
 }) => (
     <div className="creditcard-container" style={{ background: bgColor, color: color }}>
-      <img src={imageCard[type]} alt={type}></img>
-      <p>···· ···· ···· {number.substring(11, 15)}</p>
-      <p>Expires {getMonth(expirationMonth)}/{expirationYear} - {bank}</p>
-      <p>{owner}</p>
+      <div className="creditcard-img">
+        <img src={imageCard[type]} alt={type}></img>
+      </div>
+      <div className="creditcard-number">
+        <p>····</p>
+        <p>····</p>
+        <p>····</p>
+        <p>{number.substring(11, 15)}</p>
+      </div>
+      
+      <div className="creditcard-info">
+        <p>Expires {getMonth(expirationMonth)}/{expirationYear} - {bank}</p>
+        <p>{owner}</p>
+      </div>
     </div>
   )
 

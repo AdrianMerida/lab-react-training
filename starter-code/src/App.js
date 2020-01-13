@@ -5,6 +5,8 @@ import './App.css'
 import Random from './components/Random/Random';
 import BoxColor from './components/BoxColor/BoxColor';
 import CreditCard from './components/CreditCard/CreditCard';
+import Rating from './components/Rating/Rating';
+import LikeButton from './components/LikeButton/LikeButton';
 
 class App extends Component {
   render() {
@@ -65,6 +67,24 @@ class App extends Component {
             bgColor="#11aa99"
             color="white" />
         </div>
+
+        {/* RATING */}
+        <h1 className="margin-center-10">STARS</h1>
+        <div>
+          <Rating>0</Rating>
+          <Rating>1.49</Rating>
+          <Rating>1.5</Rating>
+          <Rating>3</Rating>
+          <Rating>4</Rating>
+          <Rating>5</Rating>
+        </div>
+
+        {/* LIKEBUTTON */}
+        <h1 className="margin-center-10">LIKEBUTTON</h1>
+        <div>
+          <LikeButton/>
+        </div>
+
       </div>
     );
   }

@@ -28,3 +28,9 @@ code {
 .margin-center-10 {
   margin: 10px auto;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
