@@ -7,6 +7,7 @@ import BoxColor from './components/BoxColor/BoxColor';
 import CreditCard from './components/CreditCard/CreditCard';
 import Rating from './components/Rating/Rating';
 import LikeButton from './components/LikeButton/LikeButton';
+import QRCodeGenerator from './components/QRCode/QRCodeGenerator';
 
 class App extends Component {
   render() {
@@ -84,6 +85,13 @@ class App extends Component {
         <div>
           <LikeButton/>
         </div>
+
+        <h1 className="margin-center-10">QRGENERATOR</h1>
+        <div>
+          <QRCodeGenerator />
+        </div>
+
+        
 
       </div>
     );
